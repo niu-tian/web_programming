@@ -1,0 +1,57 @@
+body {
+  background-color: #EAF6F6;
+  font-size: 12pt;
+  font-family: serif;
+  text-align: center;
+}
+
+#output {
+  width: 80%;
+  height: 100px;
+  font-size: 36pt;
+  font-weight: bold;
+  height: 100px;
+  font-family: monospace;
+  border: solid 2px #8EBEBE;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#controls {
+  text-align: left;
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+  text-align: left;
+  float: left;
+}
+
+#input {
+  text-align: left;
+  display: inline-block;
+}
+
+.label {
+  font-weight: bold;
+  border-bottom: solid 1px #8EBEBE;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+textarea, button {
+  border: solid gray 1px;
+  background-color: #ffffff;
+}
+
+button {
+  width: 70px;
+}
+
+button.disabled {
+  background-color: lightgray;
+}

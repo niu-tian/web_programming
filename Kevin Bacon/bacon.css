@@ -1,0 +1,51 @@
+body {
+  background-color: #dad9d4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+#frame {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main {
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+#banner, #w3c {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+form {
+  width: 24em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+legend {
+  text-align: left;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 80%;
+  border: solid #dad9d4 1px;
+  margin-bottom: 1em;
+}
+
+#title {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #dad9d4;
+}

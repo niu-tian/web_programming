@@ -6,7 +6,7 @@
 		echo "<body><div id='frame'>";
 		banner();
 		echo "<div id='main'>";
-    checkParam("kevin");
+    		checkParam("kevin");
 		form();
 		echo "</div>";
 		validator();
